@@ -1,6 +1,7 @@
 
-const API_KEY=process.env.API_KEY;
+const  API_KEY = process.env.API_KEY;
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
     fetchTrending:{
         title:'Tending',
